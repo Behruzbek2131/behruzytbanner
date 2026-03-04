@@ -135,10 +135,7 @@ function App() {
         <p>✅ Rasm avtomatik ravishda 2560x1440 o'lchamga keltiriladi.</p>
         <p>✅ Chetlaridagi ortiqcha joylar qora rang bilan to'ldiriladi.</p>
       </div>
-    </div>
-  );
-}
-<footer className="footer">
+      <footer className="footer">
         <p>
           Created by <span className="dev-name">Behruzbek</span> | 
           Telegram Contact: <a href="https://t.me/Behruzchik_im" target="_blank" rel="noreferrer">
@@ -146,5 +143,10 @@ function App() {
           </a>
         </p>
       </footer>
+    </div>
+    
+  );
+}
+
 
 export default App;
