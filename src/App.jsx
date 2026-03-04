@@ -138,5 +138,13 @@ function App() {
     </div>
   );
 }
+<footer className="footer">
+        <p>
+          Created by <span className="dev-name">Behruzbek</span> | 
+          Telegram Contact: <a href="https://t.me/Behruzchik_im" target="_blank" rel="noreferrer">
+            Behruzchik_im
+          </a>
+        </p>
+      </footer>
 
 export default App;

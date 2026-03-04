@@ -105,3 +105,44 @@
   .header h1 { font-size: 1.4rem; }
   .controls-card { padding: 16px; }
 }
+
+.footer {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+  border-bottom: 1px dashed transparent;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    font-size: 12px; /* Telefonda matnni biroz kichraytiramiz */
+    padding: 15px 10px;
+    margin-top: 20px;
+  }
+  
+  .footer p {
+    display: flex;
+    flex-direction: column; /* Telefonda ism va linkni ustma-ust tushiramiz */
+    gap: 5px;
+  }
+}
+
+.footer a:hover {
+  color: #60a5fa;
+  border-bottom-color: #60a5fa;
+}
+
+.dev-name {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
